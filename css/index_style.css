@@ -1,0 +1,164 @@
+@font-face {
+    font-family: "lobster";
+    src: url(../fonts/Lobster/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: "boogooloo";
+    src: url(../fonts/boogooloo/Boogaloo-Regular.ttf);
+}
+
+@font-face {
+    font-family: "arima";
+    src: url(../fonts/arima/ArimaMadurai-Regular.ttf);
+}
+
+#div-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 92, 128);
+    height: 60px;
+    margin: 2vw;
+}
+
+.font-lobster{
+    font-family: "lobster";
+    font-size: 125%;
+    text-decoration: none;
+    color: #06cff1;
+}
+
+.font-boogooloo{
+    font-family: "boogooloo";
+    font-size: 175%;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.91);
+}
+
+a.font-boogooloo:hover{
+    color: blue;
+}
+
+.font-arima{
+    font-family: "arima";
+    font-size: 175%;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.91);
+}
+
+p.font-arima{
+    font-size:125%
+}
+
+#div-flex-second{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2vw;
+}
+
+
+.img-logo{
+    border-radius: 10px;
+}
+
+#span{
+    display: flex;
+    margin: 2vw;
+}
+
+
+
+/* -------------------------------------------- */
+
+#hero-hero{
+    background-color: rgb(0, 92, 128);
+    height: 450px;
+    color: white;
+    width: 80%;
+    padding: 0 6px 0 6px;
+}
+
+
+.ul-hero{
+    color: wheat;
+}
+#div-bar{
+    background-color: #038fe0;
+    width: 15%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#div{
+    margin: 2vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+#footer{
+    background-color: rgb(3, 137, 190);
+    display: flex;
+    margin: 0 2vw;
+    justify-content: space-around;
+    align-items: center ;
+    height: 100px;
+}
+
+.icon{
+    color:whitesmoke;
+    text-decoration: none;
+    margin: 0 4px 0 4px;
+}
+
+@media only screen and (max-width: 974px) {
+    .font-Anek{
+        font-size: 150%
+    }
+
+}
+
+@media only screen and (max-width: 980px) {
+    p.font-arima{
+        font-size: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+    #div-flex-second{
+        width: 350px;
+    }
+
+
+}
+@media only screen and (max-width: 850px) {
+    #div-flex{
+        flex-direction: column;
+        height: 110px;
+    }
+
+}
+@media only screen and (max-width: 1171px) {
+    p.font-boogooloo{
+        font-size: 160%;
+}
+
+}
+
+@media only screen and (max-width: 1123px) {
+        #div-bar{
+            display: none;
+        }
+        #hero-hero{
+            width:100%;
+        }
+
+}
+
